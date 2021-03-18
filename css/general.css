@@ -1,0 +1,93 @@
+/*
+    Author: Silvia Mariana Reyesvera Quijano - 000813686 
+    Date: December 7, 2020
+
+    This code provides styling meant for various snake game files
+*/
+
+body {
+    background-color: black;
+    font-family: Copperplate, Papyrus, fantasy;
+    min-width: 300px;
+    font-size: 1.2em;
+    min-width: 500px;
+}
+
+#bigHeader {
+    /*height: 160px;*/
+    text-align: center;
+    color: white;
+}
+
+#title {
+    /*display: inline;*/
+    margin: auto 0;
+}
+
+h1 {
+    display: inline;
+}
+
+h4{
+    margin: 0;
+    text-align: center;
+    padding-bottom: 20px
+}
+
+#bigLogo {
+    height: 150px;
+    width: 150px;
+    vertical-align: middle;
+}
+
+.mainContainer {
+    /*background-color: black;*/
+    margin: 10px auto;
+    width: 80%;
+    padding: 10px;
+    /*border-radius: 10px;*/
+    color:white;
+}
+
+.fields {
+    width: 350px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    font-size: 0.75em;
+    width: 200x;
+    /*font-family: Verdana, Geneva, Tahoma, sans-serif;*/
+}
+
+input {
+    font-size: 1.2em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+label[name="colorLabel"]{
+    display: inline;
+    width: 200px;
+}
+
+label[name="dateBirthLabel"]{
+    width: 200px;
+}
+
+.nameField, .passwordField, .dateField, .colorField {
+    padding: 10px;
+}
+
+.submitField, .registerField, .loginField {
+    margin-top: 20px;
+    text-align: center;
+}
+
+input[type="submit"], .registerField input[type="button"], .loginField input[type="button"]{
+    font-family: Copperplate, Papyrus, fantasy;
+}
+
+input[type="submit"], input[type="button"]{
+    cursor: pointer;
+}

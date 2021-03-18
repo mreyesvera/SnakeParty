@@ -1,0 +1,54 @@
+/*
+    Author: Silvia Mariana Reyesvera Quijano - 000813686 
+    Date: December 7, 2020
+
+    This code provides styling meant for scores.php
+*/
+
+.mainContainer {
+    /*background-color: white;*/
+    border-radius: 10px;
+    /*color:black;*/
+    padding: 40px 0;
+}
+
+#menuButtons input {
+    display: block;
+    width: 300px;
+    height: 80px;
+    margin: 10px;
+    font-size: 1.5em;
+}
+
+#menuButtons {
+    width: 320px;
+    margin: 0 auto;
+
+}
+
+#menuButtons .expiredMessage {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+#expiredMessage {
+    text-align: center;
+}
+
+#options {
+    margin: 0 auto 20px auto;
+    text-align: center;
+}
+
+#scores {
+    color: white;
+    margin: 0 auto;
+}
+
+#scores td {
+    padding: 10px 20px;
+    text-align: center;
+}

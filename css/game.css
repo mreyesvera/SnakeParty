@@ -1,0 +1,95 @@
+/*
+    Author: Silvia Mariana Reyesvera Quijano - 000813686 
+    Date: December 7, 2020
+
+    This code provides styling meant for game.php
+*/
+
+body {
+    text-align: center;
+}
+
+canvas {
+    background-color: lavender;
+    margin: 0 auto;
+}
+
+.mainContainer {
+    border-radius: 10px;
+    padding: 40px 0;
+}
+
+#menuButtons input {
+    display: block;
+    width: 300px;
+    height: 80px;
+    margin: 10px;
+    font-size: 1.5em;
+}
+
+#menuButtons {
+    width: 320px;
+    margin: 0 auto;
+
+}
+
+#menuButtons .expiredMessage {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+#expiredMessage {
+    text-align: center;
+}
+
+#instructions,
+#currentScore {
+    color: white;
+    padding: 0 30%;
+    margin: 0 auto;
+}
+
+#startGame {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -50px;
+    color: black;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+
+#savedColor {
+    display: none;
+}
+
+#endGameContent {
+    background-color: black;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -100px;
+    margin-left: -100px;
+    color: white;
+    min-width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    padding: 20px;
+    display: none;
+    
+}
+
+.alignCenter{
+    margin-top: 5%;
+}
+
+.alignCenter input{
+    display: block;
+    margin: 10px auto 0 auto;
+    font-family: Copperplate, Papyrus, fantasy;
+}

@@ -1,0 +1,32 @@
+/*
+    Author: Silvia Mariana Reyesvera Quijano - 000813686 
+    Date: December 7, 2020
+
+    This code provides styling meant for menu.php
+*/
+
+#menuButtons input {
+    display: block;
+    width: 300px;
+    height: 80px;
+    margin: 10px;
+    font-size: 1.5em;
+}
+
+#menuButtons {
+    width: 320px;
+    margin: 0 auto;
+
+}
+
+#menuButtons .errorMessage {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+#errorMessage {
+    text-align: center;
+}
